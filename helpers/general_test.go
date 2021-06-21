@@ -217,6 +217,7 @@ func TestGetTitleFunc(t *testing.T) {
 	c.Assert(GetTitleFunc("Chicago")(title), qt.Equals, "Somewhere over the Rainbow")
 	c.Assert(GetTitleFunc("ap")(title), qt.Equals, "Somewhere Over the Rainbow")
 	c.Assert(GetTitleFunc("ap")(title), qt.Equals, "Somewhere Over the Rainbow")
+	c.Assert(GetTitleFunc("sentence")(title), qt.Equals, "Somewhere over the rainbow")
 	c.Assert(GetTitleFunc("")(title), qt.Equals, "Somewhere Over the Rainbow")
 	c.Assert(GetTitleFunc("unknown")(title), qt.Equals, "Somewhere Over the Rainbow")
 }

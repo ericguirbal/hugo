@@ -410,7 +410,7 @@ force = false
 
 ## Configure Title Case
 
-Set `titleCaseStyle` to specify the title style used by the [title](/functions/title/) template function and the automatic section titles in Hugo. It defaults to [AP Stylebook](https://www.apstylebook.com/) for title casing, but you can also set it to `Chicago` or `Go` (every word starts with a capital letter).
+Set `titleCaseStyle` to specify the title style used by the [title](/functions/title/) template function and the automatic section titles in Hugo. It defaults to [AP Stylebook](https://www.apstylebook.com/) for title casing, but you can also set it to `Chicago`, `Go` (every word starts with a capital letter) or `Sentence` (first letter of the first word is capitalized).
 
 ## Configuration Environment Variables
 
